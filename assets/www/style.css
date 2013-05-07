@@ -1,0 +1,194 @@
+body, html{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+	margin: 0; padding: 0; border: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #07c;
+}
+
+h1,h2,h3 {
+	margin: 15px;
+}
+
+img {
+	border: 0;
+}
+
+.sitebanner {
+	background-color: #07c;
+	color: white;
+	padding: 5px;
+}
+
+.sitebanner a {
+	font-weight: bold;
+	color: white;
+}
+
+.copyright_footer{
+	font-size: small;
+	color: #bbb;
+	text-align: center;
+}
+
+.bugs_footer{
+	color: #555;
+}
+
+.tab_pane {
+	background-color: #ccc;
+	border: 1px solid #888;
+	
+	border-top: 0;
+	
+	margin: 0 0 1em 0;
+	padding: 1em;
+}
+
+.controls_div {
+	background-color: white;
+	margin: 0.3em 0 0.3em 0;
+	text-align: center;
+	border: 1px solid #000;
+}
+
+#display {
+	/*background-color: white;
+	border: 1px solid #000;
+	padding: 1em;*/
+	
+	font-size: x-large;
+	
+	text-align: center;
+}
+
+#playback_controls {
+	padding: 0.3em;
+}
+
+#feedback_div{
+	
+}
+
+.playback_control_a img {
+	border: 1px solid #000;
+	background-color: #aaa;
+	margin: 0;
+	margin-right: 0.1em;
+	
+	vertical-align: middle;
+}
+
+.setting_div {
+	float: left;
+	text-align: left;
+	width: 40%;
+}
+
+#settings {
+	padding: 0.7em;
+}
+
+#settings_table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+}
+
+#controls_table {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#slider_div {
+	width: 200px;
+	border: 1px solid #000;
+	position: relative;
+	height: 32px;
+	background-color: #aaa;
+	
+	margin-left: 0.1em;
+}
+	    
+.ui-slider-handle {
+	background-color: #555; 
+	height: 32px; 
+	width: 20px; 
+	overflow: hidden; 
+	position: absolute;
+} 
+
+#viewerTa_div{ padding: 10px; }
+
+#viewerTa_div a { color: #07c; }
+
+#viewer_ta { font-family: Arial, sans-serif; }
+
+/* TABS *****************************************/
+
+/* taken from http://css.maxdesign.com.au/listamatic/horizontal05.htm */
+
+#tabs {
+	margin: 0;
+}
+
+ul#tabs_ul
+{
+	margin: 0;
+
+	padding: 3px 0;
+	margin-left: 0;
+	border-bottom: 1px solid #778;
+	font: bold 12px Verdana, sans-serif;
+}
+
+#tabs_ul li
+{
+	list-style: none;
+	margin: 0;
+	display: inline;
+}
+
+#tabs_ul li a
+{
+	padding: 3px 1em;
+	margin-left: 3px;
+	border: 1px solid #778;
+	border-bottom: none;
+	background: #777;
+	text-decoration: none;
+}
+
+#tabs_ul li a { color: #ccc; }
+
+#tabs_ul li a:hover
+{
+	color: #fff;
+	background: #aaa;
+	border-color: #227;
+}
+
+#tabs_ul li a#current
+{
+	color: #07c;
+	
+	background: #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+#tabs_ul li a#current:hover { color: #0af; } 
+
+.color_button
+{
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	margin: 0px 5px 0px 0;
+	border: 1px solid black;
+}
+

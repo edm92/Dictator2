@@ -1,0 +1,15 @@
+<html>
+<script type="text/javascript">
+var iPadAgent = navigator.userAgent.match(/iPad/i) != null;
+var iPodAgent = navigator.userAgent.match(/iPhone/i) != null;
+var AndroidAgent = navigator.userAgent.match(/Android/i) != null;
+var webOSAgent = navigator.userAgent.match(/webOS/i) != null;
+ 
+if(AndroidAgent || webOSAgent){
+	alert("Hi Android"); window.location="home.html";
+}else{
+	window.location="home.html";
+}
+</script>
+
+</html>
