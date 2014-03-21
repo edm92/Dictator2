@@ -1,6 +1,6 @@
 <?php
 	$visitURL = ""; 
-	$token = "8386b2b1bffd91119d8ccb81415a1c91e88dc580";
+	$token = "Put your readability API code here";
 	if(isset($_GET["url"])) $visitURL = $_GET["url"];
 	if(isset($_POST["url"])) $visitURL = $_POST["url"];
 
